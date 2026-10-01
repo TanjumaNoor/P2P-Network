@@ -1,4 +1,4 @@
-# UAP P2P Network – Chat & File Sharing (CSE 433)
+# P2P Network – Chat & File Sharing (CSE 433)
 
 A beginner-level peer-to-peer application written in Python using TCP sockets.
 Several peers connect **directly** to each other (no central server) and
@@ -39,9 +39,9 @@ python main.py
 
 ## Connect two peers (same computer)
 1. Start the app twice (two terminals).
-2. Peer 1: Name `Alice`, Port `5000` → **Start Peer**.
-3. Peer 2: Name `Bob`, Port `5001` → **Start Peer**.
-4. In Bob's window: IP `127.0.0.1`, Port `5000` → **Connect**.
+2. Peer 1: Name `Tanju`, Port `5000` → **Start Peer**.
+3. Peer 2: Name `Priyo`, Port `5001` → **Start Peer**.
+4. In Priyo's window: IP `127.0.0.1`, Port `5000` → **Connect**.
 5. Both windows now show the other peer in **Connected Peers**.
 
 ## Connect over Wi-Fi/LAN
@@ -56,7 +56,7 @@ Select a peer in the list → **Choose File & Send** → pick any file.
 The receiver finds it in the `downloads/` folder (existing files are never overwritten: `photo (1).jpg`).
 
 ## Multiple peers
-Start a third peer (`Charlie`, port `5002`) and connect it to Alice and/or Bob. Select any peer in the list to talk to that specific peer.
+Start a third peer (`Noor`, port `5002`) and connect it to Tanju and/or Priyo. Select any peer in the list to talk to that specific peer.
 
 ## Error handling
 Invalid IP/port, connection refused, unreachable peer, missing file, sending with no peer selected, and peers disconnecting (even mid-transfer) all show a message instead of crashing.

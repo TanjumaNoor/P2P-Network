@@ -34,7 +34,7 @@ class App:
         f1 = ttk.LabelFrame(self.root, text="My Peer")
         f1.pack(fill="x", padx=8, pady=4)
         ttk.Label(f1, text="Name:").pack(side="left", padx=4)
-        self.name_var = tk.StringVar(value="Alice")
+        self.name_var = tk.StringVar(value="Tanju")
         self.name_entry = ttk.Entry(f1, textvariable=self.name_var, width=14)
         self.name_entry.pack(side="left")
         ttk.Label(f1, text="Port:").pack(side="left", padx=4)
